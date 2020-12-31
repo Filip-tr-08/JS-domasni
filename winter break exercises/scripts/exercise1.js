@@ -1,0 +1,18 @@
+var a;
+document.write(a);
+document.write("<br>" + typeof a);
+a = 56;
+document.write("<br>" + a);
+document.write("<br>" + typeof a);
+a = "Hello";
+document.write("<br>" + a);
+document.write("<br>" + typeof a);
+a = [1, 2, 3];
+document.write("<br>" + "[" + a + "]");
+document.write("<br>" + typeof a);
+a = null;
+document.write("<br>" + a);
+document.write("<br>" + typeof a);
+a = true;
+document.write("<br>" + a);
+document.write("<br>" + typeof a);
