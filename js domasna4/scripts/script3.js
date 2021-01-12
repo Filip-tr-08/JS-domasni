@@ -1,10 +1,10 @@
 var x = ``;
-for (let i = 0; i <= 20; i++) {
+for (let i = 1; i <= 20; i++) {
   var check = i % 2;
   if (check === 0) {
-    x += `\n ${i}`;
+    x += `${i}\n`;
   } else {
-    x += ` ${i}`;
+    x += `${i} `;
   }
 }
 console.log(x);
