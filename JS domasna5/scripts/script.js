@@ -1,5 +1,5 @@
 let div = document.getElementById("first");
-let h1 = first.children[0];
+let h1 = div.children[0];
 h1.textContent = "This heading is changed ";
 let paragraph = h1.nextElementSibling;
 paragraph.textContent = "This sibling paragraph is changed too";
