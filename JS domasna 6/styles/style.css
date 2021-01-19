@@ -1,0 +1,10 @@
+.table {
+  border: 5px green solid;
+  padding: 0px;
+  margin-top: 5px;
+  border-collapse: collapse;
+}
+.td {
+  border: 5px green solid;
+  padding: 5px;
+}
