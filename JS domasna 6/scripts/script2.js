@@ -6,6 +6,9 @@ btn.addEventListener("click", function (e) {
   let lName = document.getElementById("lname").value;
   let email = document.getElementById("email").value;
   let pass = document.getElementById("pass").value;
+  if (fName == "" || lName == "" || email == "" || pass == "") {
+    alert("Please fill all fields");
+  }
   console.log(fName, lName, email, pass);
   print(fName, lName, email, pass);
 });
