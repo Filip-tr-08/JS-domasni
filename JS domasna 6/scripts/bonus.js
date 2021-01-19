@@ -5,7 +5,7 @@ btn.addEventListener("click", function (e) {
   e.preventDefault();
   let rows = parseInt(document.getElementById("rows").value);
   let cols = parseInt(document.getElementById("cols").value);
-  if (isNaN(rows) && isNaN(cols)) {
+  if (isNaN(rows) || isNaN(cols)) {
     alert("Please insert a number");
   } else {
     let table = document.createElement("table");
