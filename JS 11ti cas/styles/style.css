@@ -1,0 +1,236 @@
+*,
+::after::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: grid;
+  place-items: center;
+}
+main {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  border: black solid 15px;
+  padding: 30px;
+  margin: 100px;
+  width: 1000px;
+
+  display: grid;
+  place-items: center;
+}
+
+.reg-form {
+  width: 800px;
+  height: fit-content;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  visibility: visible;
+}
+.reg-form-hide {
+  visibility: hidden;
+}
+label {
+  font-size: 4em;
+}
+.box {
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#name {
+  display: inline-block;
+  width: 700px;
+  margin-top: 5px;
+  height: 50px;
+
+  font-size: 3em;
+  border: 3px black solid;
+  animation: box-shadow linear 0.6s infinite;
+}
+@keyframes box-shadow {
+  0% {
+    box-shadow: 0 0 0px black;
+  }
+  50% {
+    box-shadow: 0 0 6px black;
+  }
+  100% {
+    box-shadow: 0 0 0px black;
+  }
+}
+.submit {
+  width: 70px;
+  height: 70px;
+  margin: 0px;
+  font-size: 3em;
+  background-color: transparent;
+  border: none;
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+}
+.menu {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello {
+  visibility: hidden;
+  margin-bottom: 0px;
+  font-size: 3em;
+}
+.hello-show {
+  visibility: visible;
+}
+
+.number {
+  font-size: 5em;
+  margin-top: 0px;
+  visibility: hidden;
+  margin-bottom: 0px;
+}
+.number-show {
+  visibility: visible;
+}
+.box1 {
+  margin: 0px;
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+.submit1 {
+  width: 70px;
+  height: 70px;
+  margin: 0px;
+  font-size: 3em;
+  background-color: transparent;
+  border: none;
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+}
+#money {
+  display: inline-block;
+  width: 700px;
+  margin-top: 5px;
+  height: 50px;
+  font-size: 3em;
+  border: 3px black solid;
+  animation: box-shadow linear 0.6s infinite;
+}
+.box1-show {
+  display: flex;
+}
+.box2 {
+  margin: 0px;
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+.submit2 {
+  width: 70px;
+  height: 70px;
+  margin: 0px;
+  font-size: 3em;
+  background-color: transparent;
+  border: none;
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+}
+#money2 {
+  display: inline-block;
+  width: 700px;
+  margin-top: 5px;
+  height: 50px;
+  font-size: 3em;
+  border: 3px black solid;
+  animation: box-shadow linear 0.6s infinite;
+}
+.box2-show {
+  display: flex;
+}
+.btns {
+  margin-top: 0px;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  visibility: hidden;
+}
+.btns-show {
+  visibility: visible;
+}
+.btn {
+  height: 80px;
+  width: 80px;
+  font-size: 3em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.take {
+  color: red;
+  transition: opacity 0.5s linear;
+}
+.take:hover {
+  opacity: 0.5;
+}
+.balance {
+  color: green;
+  transition: opacity 0.5s linear;
+}
+.balance:hover {
+  opacity: 0.5;
+}
+.insert {
+  color: blue;
+  transition: opacity 0.5s linear;
+}
+.insert:hover {
+  opacity: 0.5;
+}
+.log-out {
+  font-size: 2em;
+  border: none;
+  background-color: transparent;
+  color: red;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  cursor: pointer;
+  transition: transform ease 0.3s;
+}
+.log-out:hover {
+  transform: rotate(-90deg);
+}
+.heading {
+  font-size: 3em;
+  position: absolute;
+  top: 350px;
+  left: 450px;
+  color: brown;
+}
+.heading1 {
+  font-size: 3em;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+  color: red;
+}
