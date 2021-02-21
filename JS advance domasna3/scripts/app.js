@@ -82,7 +82,7 @@ let basicFunctions = {
   validate: function (name, category, price) {
     if (!name.value || !category.value || !price.value) {
       elements.p.textContent = "Please fill all fields";
-      elements.body.append(p);
+      elements.body.append(elements.p);
     } else {
       basicFunctions.create();
     }
