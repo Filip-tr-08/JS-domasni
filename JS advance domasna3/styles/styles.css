@@ -1,0 +1,11 @@
+body {
+  margin: 5%;
+  padding: 5%;
+  background-color: burlywood;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  margin: 2%;
+}
