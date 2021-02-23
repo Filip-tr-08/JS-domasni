@@ -9,9 +9,10 @@ function checkString(string) {
     }, 4000);
   });
 }
-async function callFunction(n) {
-  let result = await checkString(n);
-  console.log(result);
-}
-callFunction("hello");
-callFunction(56);
+checkString("hello")
+  .then((response) => console.log(response))
+  .catch((error) => console.log(error));
+
+checkString(56)
+  .then((response) => console.log(response))
+  .catch((error) => console.log(error));
