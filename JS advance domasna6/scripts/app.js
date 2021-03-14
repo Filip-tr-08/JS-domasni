@@ -4,14 +4,14 @@ let Library = function (name, books, address) {
   this.address = address;
   this.numOfMembers = this.books.length * 15;
   this.printBooks = function () {
-    this.books.forEach((book) => {
-      if (this.books.length == 0) {
-        console.log("There are not any books");
-      }
-      if (this.books.length != 0) {
+    if (this.books.length == 0) {
+      console.log("There are not any books");
+    }
+    if (this.books.length != 0) {
+      this.books.forEach((book) => {
         console.log(book.title);
-      }
-    });
+      });
+    }
   };
   this.addBook = function (b) {
     let findLibraryBook = this.books.find((book) => {
